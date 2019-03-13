@@ -4,8 +4,8 @@ author: 'Daiqiao Lin'
 output: github_document
 ---
 
-
-#Hey! Let's see something about Golden Warriors!!
+#Introduction:five top players of gsw and nba
+>To be honest, I am a fan of Golden Warriors, a fan of Stephen Curry, I became a fan of him and the team long before their first champion took place. It was such a great journey to see my favorite team to grow from somewhat a nameless team somewhere in the west side to be the top team in the NBA league.
 
 ![Klay Thompson, Kevin Durant and Stephen Curry](https://www.nba.com/article/2017/12/14/one-team-one-stat-warriors-shooting-better-ever)
 The five players I mentioned above are Klay Thompson, Kevin Durant Stephen Curry, Draymond Green and Andre Iguodala. Here I will provide a detailed description of the 2016 season's from the shot-data.
