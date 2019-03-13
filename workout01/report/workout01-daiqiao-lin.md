@@ -2,7 +2,18 @@ Workout01
 ================
 Daiqiao Lin
 
-<img src="../images/gsw-shot-chart.png" width="80%" style="display: block; margin: auto;" />
+Introduction:five top players of gsw and nba
+============================================
+
+> To be honest, I am a fan of Golden Warriors, a fan of Stephen Curry, I became a fan of him and the team long before their first champion took place. It was such a great journey to see my favorite team to grow from somewhat a nameless team somewhere in the west side to be the top team in the NBA league.
+
+![Klay Thompson, Kevin Durant and Stephen Curry](https://www.nba.com/article/2017/12/14/one-team-one-stat-warriors-shooting-better-ever) The five players I mentioned above are Klay Thompson, Kevin Durant Stephen Curry, Draymond Green and Andre Iguodala. Here I will provide a detailed description of the 2016 season's from the shot-data.
+
+1.  Efficiency
+
+-   First, we would have a general view of five player.
+
+We would see that Stephen Curry, Kevin Durant and Klay Thomson are always shooting a great number of points. As there should not be breaking news that the Warriors can shoot.
 
 eff shooting by %
 -----------------
@@ -96,6 +107,8 @@ arrange(mutate(value_arrange,perc_made=made/total),desc(perc_made))
     ## 4  Stephen curry  1250  584 0.4672000
     ## 5 Draymond Green   578  245 0.4238754
 
+-   We can also have a look at the below table to have a general view of the 2 points eff shooting effectiveness by percentage
+
 2point eff shooting by %
 ------------------------
 
@@ -174,6 +187,8 @@ arrange(mutate(value_arrange,perc_made2=made/total),desc(perc_made2))
     ## 4  Stephen curry  1250  584  0.4672000
     ## 5 Draymond Green   578  245  0.4238754
 
+-   Third, the 3points vision.
+
 3point eff shooting by %
 ------------------------
 
@@ -251,3 +266,9 @@ arrange(mutate(value_arrange,perc_made3=made/total),desc(perc_made3))
     ## 3 Andre Iguodala   371  192  0.5175202
     ## 4  Stephen curry  1250  584  0.4672000
     ## 5 Draymond Green   578  245  0.4238754
+
+Then we can also use the shot-chart to have a general view of the shooting space of the above five players. <img src="../images/gsw-shot-chart.png" width="80%" style="display: block; margin: auto;" />
+
+From the above graph, we could see that Durant, Klay and Curry shot the most and in a similar pattern: that is, the most points and gained near the basket or as three points. We have to admitted that such shooting pattern change the NBA history. in previous teams, players tend not to gain most of their points far from the basket. But Curry change the game rule and people have now changed their mind. With Durant get in GSW, the team is now becoming more and more unstoppable.
+
+> We could also seen from the above thatGolden Warrior is a team hurrying to win the game by team work, not much to do with the only person.

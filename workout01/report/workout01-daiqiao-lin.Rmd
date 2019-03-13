@@ -10,7 +10,8 @@ output: github_document
 ![Klay Thompson, Kevin Durant and Stephen Curry](https://www.nba.com/article/2017/12/14/one-team-one-stat-warriors-shooting-better-ever)
 The five players I mentioned above are Klay Thompson, Kevin Durant Stephen Curry, Draymond Green and Andre Iguodala. Here I will provide a detailed description of the 2016 season's from the shot-data.
 
-First, we would have a general view of five player. 
+1. Efficiency
+* First, we would have a general view of five player. 
 
 We would see that Stephen Curry, Kevin Durant and Klay Thomson are always shooting a great number of points.
 As there should not be breaking news that the Warriors can shoot.
@@ -20,7 +21,7 @@ As there should not be breaking news that the Warriors can shoot.
 ##eff shooting by %
 ```{r}
 library(dplyr)
-ap<-read.csv('shots-data.csv',stringsAsFactors = FALSE)
+ap<-read.csv('C://Users//26073//Desktop//berkeley//classes//stat133//workout01//data//shots-data.csv',stringsAsFactors = FALSE)
 
 currys<-ap[ap$player=='Stephen Curry',c('player','shot_made_flag','shot_type')]
 csumtotal=sum(table(currys$shot_made_flag))
@@ -85,11 +86,12 @@ sum3made=c(csum3yestotal,ksum3yestotal,gsum3yestotal,tsum3yestotal,isum3yestotal
 value_arrange=data.frame(name=player_name,total=sumtotal,made=summade)
 arrange(mutate(value_arrange,perc_made=made/total),desc(perc_made))
 ```
-We can also have a look at the below table to have a general view of the 2 points eff shooting effectiveness by percentage
+* We can also have a look at the below table to have a general view of the 2 points eff shooting effectiveness by percentage
+
 ##2point eff shooting by %
 ```{r}
 library(dplyr)
-ap<-read.csv('shots-data.csv',stringsAsFactors = FALSE)
+ap<-read.csv('C://Users//26073//Desktop//berkeley//classes//stat133//workout01//data//shots-data.csv',stringsAsFactors = FALSE)
 
 currys<-ap[ap$player=='Stephen Curry',c('player','shot_made_flag','shot_type')]
 csumtotal=sum(table(currys$shot_made_flag))
@@ -154,11 +156,12 @@ sum3made=c(csum3yestotal,ksum3yestotal,gsum3yestotal,tsum3yestotal,isum3yestotal
 value_2parrange=data.frame(name=player_name,total=sum2total,made=sum2made)
 arrange(mutate(value_arrange,perc_made2=made/total),desc(perc_made2))
 ```
-Also, the 3points vision.
+* Third, the 3points vision.
+
 ##3point eff shooting by %
 ```{r}
 library(dplyr)
-ap<-read.csv('shots-data.csv',stringsAsFactors = FALSE)
+ap<-read.csv('C://Users//26073//Desktop//berkeley//classes//stat133//workout01//data//shots-data.csv',stringsAsFactors = FALSE)
 
 currys<-ap[ap$player=='Stephen Curry',c('player','shot_made_flag','shot_type')]
 csumtotal=sum(table(currys$shot_made_flag))
@@ -236,7 +239,7 @@ From the above graph, we could see that Durant, Klay and Curry shot the most and
 We have to admitted that such shooting pattern change the NBA history. in previous teams, players tend not to gain most of their points far from the basket. But Curry change the game rule and people have now changed their mind. 
 With Durant get in GSW, the team is now becoming more and more unstoppable. 
 
-We could also seen from the above thatGolden Warrior is a team hurrying to win the game by team work, not much to do with the only person.
+>We could also seen from the above thatGolden Warrior is a team hurrying to win the game by team work, not much to do with the only person.
 
 
 
